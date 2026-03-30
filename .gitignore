@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Models (optional: remove if you want to upload)
+*.h5
+*.pkl
+
+# System
+.DS_Store
+Thumbs.db
